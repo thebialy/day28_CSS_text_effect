@@ -1,0 +1,15 @@
+html {
+    height: 100%
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
