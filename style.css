@@ -45,27 +45,27 @@ p {
   
 .text-div:hover p {
     transform: translate(0, -50px);
-  }
+}
   
 .text-line:nth-child(1) {
     left: 29px;
-  }
+}
   
 .text-line:nth-child(2) {
     left: 58px;
     background: #af0069;
-  }
+}
   
 .text-line:nth-child(3) {
     left: 87px;
     background: #55b3b1;
-  }
+}
   
 .text-line:nth-child(4) {
     left: 116px;
     background: #f6c065;
-  }
+}
   
 .text-line:nth-child(5) {
     left: 145px;
-  }
+}
