@@ -27,3 +27,45 @@ body {
     overflow: hidden;
     position: relative;
 }
+
+p {
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.667);
+}
+  
+.text-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.337);
+}
+  
+.text-div:hover p {
+    transform: translate(0, -50px);
+  }
+  
+.text-line:nth-child(1) {
+    left: 29px;
+  }
+  
+.text-line:nth-child(2) {
+    left: 58px;
+    background: #af0069;
+  }
+  
+.text-line:nth-child(3) {
+    left: 87px;
+    background: #55b3b1;
+  }
+  
+.text-line:nth-child(4) {
+    left: 116px;
+    background: #f6c065;
+  }
+  
+.text-line:nth-child(5) {
+    left: 145px;
+  }
